@@ -34,9 +34,11 @@ module.exports = {
 
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
-  footer:
-    '<center><a href="https://komuro.cf"><img src="https://img.shields.io/badge/Tetsuya%20Komuro%20One%20Drive-000000?logo=Apple&logoColor=FFFFFF" alt="\tkfans\"></a> <a href="https://avex.jp/tk/"><img src="https://img.shields.io/badge/Tetsuya%20Komuro%20Official-000000?logo=Apple&logoColor=FFFFFF" alt="tk"></a></center>',
+  // footer:
+  //   '<center><a href="https://komuro.cf"><img src="https://img.shields.io/badge/Tetsuya%20Komuro%20One%20Drive-000000?logo=Apple&logoColor=FFFFFF" alt="\tkfans\"></a> <a href="https://avex.jp/tk/"><img src="https://img.shields.io/badge/Tetsuya%20Komuro%20Official-000000?logo=Apple&logoColor=FFFFFF" alt="tk"></a></center>',
 
+  footer: "<center><a href=\"https://komuro.cf/\" target=\"_blank\" rel=\"noopener noreferrer\"><img style=\"display: inline-block\" src=\"https://img.shields.io/badge/Tetsuya%20Komuro%20One%20Drive-000000?logo=Apple&logoColor=FFFFFF\" alt=\"tkfans\"</a> <a href=\"https://avex.jp/tk\" target=\"_blank\" rel=\"noopener noreferrer\"><img style=\"display: inline-block\" src=\"https://img.shields.io/badge/Tetsuya%20Komuro%20Official-000000?logo=Apple&logoColor=FFFFFF\" alt=\"tk\"</a></center>",
+  
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
   protectedRoutes: ['/Music', '/Video'],
